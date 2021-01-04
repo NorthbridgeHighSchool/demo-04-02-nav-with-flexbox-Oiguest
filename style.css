@@ -1,3 +1,25 @@
 img {
-  max-width: 400px;
+  max-width: 325px;
+}
+ul { 
+  list-style-type: none;
+  padding-left: 0;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+li {
+  margin-left: 30px;
+}
+a {
+  padding: 10px;
+  border: 10px ridge rgb(229, 214, 190);
+}
+a:visited {
+  color: rgb(197, 129, 155);
+}
+a:link {
+  color: rgb(111, 146, 169);
 }
